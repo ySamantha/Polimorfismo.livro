@@ -1,0 +1,27 @@
+package com.mycompany.polimorfismo;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class main {
+    public static void main(String[] args) {
+      
+        List<Livro> livros = new ArrayList<>();
+
+     
+        livros.add(new Livro("Perdida", "Nina", 29.90));
+        livros.add(new Livro("Seleção", "Kiera", 34.90));
+
+        livros.add(new Ebook("Divergente", "Manoel", 19.90, 1.5));
+        livros.add(new Ebook("Dom Casmurro", "Machado de Assis", 25.00, 2.3));
+
+       
+        for (Livro livro : livros) {
+            System.out.println();
+            livro.exibirDetalhes();
+            System.out.println();
+        }
+    }
+    }
+    
+        
