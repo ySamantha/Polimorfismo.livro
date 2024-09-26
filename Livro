@@ -1,4 +1,4 @@
-package com.mycompany.Polimorfismo;
+package com.mycompany.polimorfismo;
 
 
 class Livro {
